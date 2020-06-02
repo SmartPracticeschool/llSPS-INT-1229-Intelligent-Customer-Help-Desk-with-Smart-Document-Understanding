@@ -1,0 +1,1105 @@
+{
+  "intents": [
+    {
+      "intent": "Location",
+      "examples": [
+        {
+          "text": "Where are you located?"
+        },
+        {
+          "text": "How do I get to the track?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Product_Information",
+      "examples": [
+        {
+          "text": "How do I turn on the heater"
+        },
+        {
+          "text": "how do I configure wifi"
+        },
+        {
+          "text": "how to set the time"
+        },
+        {
+          "text": "how do I access the settings"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Definition",
+      "examples": [
+        {
+          "text": "exacta"
+        },
+        {
+          "text": "How do you define an exacta?"
+        },
+        {
+          "text": "What is a Trifecta?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Who are you?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "About_Restaurant",
+      "examples": [
+        {
+          "text": "What's your story?"
+        },
+        {
+          "text": "Do you deliver?"
+        },
+        {
+          "text": "who are the restaurant owners and what is their philosophy?"
+        },
+        {
+          "text": "Where do you source your produce from?"
+        },
+        {
+          "text": "Who is your head chef and what is the chef's background?"
+        },
+        {
+          "text": "do you cater or host functions on site?"
+        },
+        {
+          "text": "Are you open for breakfast?"
+        },
+        {
+          "text": "Tell me about the restaurant"
+        },
+        {
+          "text": "How many locations you have for the restaurant?"
+        },
+        {
+          "text": "i want to know about you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Direction",
+      "examples": [
+        {
+          "text": "which way to go?"
+        },
+        {
+          "text": "near you"
+        },
+        {
+          "text": "looking"
+        },
+        {
+          "text": "address"
+        },
+        {
+          "text": "where"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "menu",
+      "examples": [
+        {
+          "text": "Do you offer fixed price option?"
+        },
+        {
+          "text": "tell me the entree choices"
+        },
+        {
+          "text": "I want to see a menu"
+        },
+        {
+          "text": "What do you have for food?"
+        },
+        {
+          "text": "Can I see your updated menu?"
+        },
+        {
+          "text": "What is the best maincourse over here?"
+        },
+        {
+          "text": "Do you provide Desserts as food?"
+        },
+        {
+          "text": "What sort of Drinks are provided?"
+        },
+        {
+          "text": "where can i find out about your cuisine?"
+        },
+        {
+          "text": "What is the price range of the meals?"
+        },
+        {
+          "text": "How much does coastal food costs?"
+        },
+        {
+          "text": "How much does typical food cost?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "About_Appointments",
+      "examples": [
+        {
+          "text": "Help me book an appointment"
+        },
+        {
+          "text": "I need an urgent appointment"
+        },
+        {
+          "text": "I want to make appointment"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Yes",
+      "examples": [
+        {
+          "text": "Please do."
+        },
+        {
+          "text": "You've got it right."
+        },
+        {
+          "text": "Yes, I'd like to go ahead with that."
+        },
+        {
+          "text": "Please do that. that is correct."
+        },
+        {
+          "text": "That's right"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "Yup"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "Gracias"
+        },
+        {
+          "text": "Thanx"
+        },
+        {
+          "text": "Most Welcome"
+        },
+        {
+          "text": "Thank You"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Hours",
+      "examples": [
+        {
+          "text": "What are your hours?"
+        },
+        {
+          "text": "What are the hours of track?"
+        },
+        {
+          "text": "when is the betting counter open?"
+        },
+        {
+          "text": "What time does the track open?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greeting",
+      "examples": [
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Good Morning"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cancel_order",
+      "examples": [
+        {
+          "text": "I'd like to cancel my order There's been a change. I need to cancel my bakery order."
+        },
+        {
+          "text": "Can I cancel my cake order?"
+        },
+        {
+          "text": "I would like to cancel my order, there's beeen a change."
+        },
+        {
+          "text": "please cancel the birthday cake order I placed last week"
+        },
+        {
+          "text": "I need to cancel an order"
+        },
+        {
+          "text": "The party theme changed; we don't need a cake anymore that order i placed, i need to cancel it"
+        },
+        {
+          "text": "I want to cancel my cake order"
+        },
+        {
+          "text": "There's been a change. I need to cancel my bakery order."
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "bets",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "win",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pick 6",
+          "synonyms": [
+            "pick 6"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "superfecta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "place",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "show",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "exacta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "trifecta",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "racetrack",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "track",
+          "synonyms": [
+            "horse racing",
+            "raceway",
+            "Harness Racing"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "order_number",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "order_syntax",
+          "patterns": [
+            "[A-Z]{2}\\d{5}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "menu",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Vegetarian",
+          "synonyms": [
+            "Vegetarian Value",
+            "vegan",
+            "plants only",
+            "Meatless diet",
+            "Vegan diet",
+            "Meatless"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cake",
+          "synonyms": [
+            "Cake menu",
+            "Cake shop menu",
+            "Bakery menu",
+            "Dessert Menu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Standard",
+          "synonyms": [
+            "Standard Menu"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "teller",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "teller",
+          "synonyms": [
+            "betting table",
+            "desk",
+            "counter",
+            "clerk"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.cloud.ibm.com/api/v1/web/18bcs6204%40cuchd.in_dev/default/assistant_enhanced.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, <? input.text ?>! It's lovely to meet you. How can I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1590782849100",
+      "context": {
+        "username": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1590783053200"
+    },
+    {
+      "type": "standard",
+      "parent": "node_9_1590781450000",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1590780258200"
+      },
+      "conditions": "True",
+      "dialog_node": "node_3_1590781585300"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1590780755400",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1590780258200"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1590780888500",
+      "previous_sibling": "node_9_1590780839800"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. The order $ordernumber is canceled. We hope we get the opportunity to bake a cake for you sometime soon."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590780755400",
+      "conditions": "#Yes",
+      "dialog_node": "node_9_1590780839800"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Day for you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1590697441100",
+      "conditions": "",
+      "dialog_node": "response_2_1590783510500",
+      "previous_sibling": "response_10_1590783594600"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Good day to you, $username!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1590697441100",
+      "conditions": "$username",
+      "dialog_node": "response_10_1590783594600"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I need the order number to cancel the order for you. If you don't know the order number, please call us at 958-234-3456 to cancel over the phone."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590780564400",
+      "dialog_node": "response_2_1590781834000"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you want to talk to customer care"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1591024035500",
+      "context": {},
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1591024577700",
+      "previous_sibling": "response_7_1591024581200"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "\"<?$webhook_result_1.passages[0].passage_text?>\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1591024035500",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_7_1591024581200"
+    },
+    {
+      "type": "standard",
+      "title": "Exacta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "a bet (= an amount of money that you risk on the result of something, such as a horse race) in which the horses, etc. that come first and second must be picked in the right order"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1590698765400",
+      "conditions": "@bets:exacta",
+      "dialog_node": "node_4_1590699301300",
+      "previous_sibling": "node_4_1590699097100"
+    },
+    {
+      "type": "standard",
+      "title": "Trifecta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "a bet in which the person betting forecasts the first three finishers in a race in the correct order."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1590698765400",
+      "conditions": "@bets:trifecta",
+      "dialog_node": "node_4_1590699097100"
+    },
+    {
+      "type": "standard",
+      "title": "Teller",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The teller window opens at noon with the first race starting at 1:00 pm."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1590697734500",
+      "conditions": "@teller",
+      "dialog_node": "node_3_1590698573800",
+      "previous_sibling": "node_6_1590697833000"
+    },
+    {
+      "type": "standard",
+      "title": "Racetrack",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thr Race Track is open every Monday, Thursday,  Saturday and Sunday from May till September "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1590697734500",
+      "conditions": "@racetrack",
+      "dialog_node": "node_6_1590697833000"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1590780258200",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1590780564400",
+      "previous_sibling": "node_9_1590781450000"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The correct format for our order numbers is AAnnnnn. The A's represents 2 uppercase letters, and the n's represent 5 numbers. Do you have an order number in that format?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1590780258200",
+      "conditions": "input.text.find('\\d')",
+      "dialog_node": "node_9_1590781450000",
+      "previous_sibling": "node_6_1590780444800"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. The order $ordernumber is canceled. We hope we get the opportunity to bake a cake for you sometime soon."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1590780258200",
+      "context": {
+        "ordernumber": "<? @order_number.literal ?>"
+      },
+      "conditions": "@order_number",
+      "dialog_node": "node_6_1590780444800",
+      "previous_sibling": "response_4_1590782374300"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I need the order number to cancel the order for you. If you don't know the order number, please call us at 958-234-3456 to cancel over the phone."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1590780258200",
+      "conditions": "true",
+      "dialog_node": "response_4_1590782374300",
+      "previous_sibling": "response_6_1590782347200"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. The order $ordernumber is canceled. We hope we get the opportunity to bake a cake for you sometime soon."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1590780258200",
+      "conditions": "@order_number",
+      "dialog_node": "response_6_1590782347200"
+    },
+    {
+      "type": "standard",
+      "title": "Ask for Order number",
+      "parent": "node_5_1590779833900",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1590780258200",
+      "previous_sibling": "node_10_1590780755400"
+    },
+    {
+      "type": "standard",
+      "title": "Number Provided",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Just to confirm, you want to cancel order $ordernumber?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1590779833900",
+      "conditions": "@order_number",
+      "dialog_node": "node_10_1590780755400"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1590768074300",
+      "conditions": "@menu:Standard",
+      "dialog_node": "node_9_1590779061200",
+      "previous_sibling": "node_1_1590779126900"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our cake shop menu, go to the <a href=\"https://www.example.com/menu.html\" target=\"blank\">cake shop menu</a> page on our website"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590768074300",
+      "conditions": "@menu:Cake",
+      "dialog_node": "node_1_1590779126900",
+      "previous_sibling": "node_3_1590778956900"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our menu, go to the <a href=\"https://www.example.com/menu.html\" target=\"blank\">menu</a> page on our website"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590768074300",
+      "conditions": "@menu:Vegetarian",
+      "dialog_node": "node_3_1590778956900"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Greeting",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1590697441100",
+      "previous_sibling": "node_3_1590782849100"
+    },
+    {
+      "type": "standard",
+      "title": "Restaurant",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.ibmlearningcenter.com/wp-content/uploads/2018/02/IBM-Learning-Center-Food4.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Truck Stop Gourmand is the brain child of Gloria and Fred Smith. What started out as a food truck in 2004 has expanded into a thriving restaurant. We now have one brick and mortar restaurant in downtown Portland. The bigger kitchen brought with it new chefs, but each one is faithful to the philosophy that made the Smith food truck so popular to begin with: deliver fresh, local produce in inventive and delicious ways. Join us for lunch or dinner seven days a week. Or order a cake from our bakery."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#About_Restaurant",
+      "dialog_node": "node_6_1590743485500",
+      "previous_sibling": "node_5_1590697441100"
+    },
+    {
+      "type": "standard",
+      "title": "#General_About_You",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a virtual assistant that is here to assist you. I am designed to answer your questions about the Truck Stop Gourmand restaurant and Betting. What should I call you?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_About_You",
+      "dialog_node": "node_3_1590782849100",
+      "previous_sibling": "node_6_1591024035500"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1590698765400",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are Welcome!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Thanks",
+      "dialog_node": "node_2_1590697642100",
+      "previous_sibling": "node_1_1590697734500"
+    },
+    {
+      "type": "standard",
+      "title": "Ask about Product",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input_text?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Product_Information",
+      "dialog_node": "node_6_1591024035500",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Hours",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1590697833000"
+      },
+      "conditions": "#Hours",
+      "dialog_node": "node_1_1590697734500",
+      "previous_sibling": "node_5_1590779833900"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If the pickup time is more than 48 hours from now, you can cancel your order."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "ordernumber": " \t<? @order_number.literal ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Cancel_order",
+      "dialog_node": "node_5_1590779833900",
+      "previous_sibling": "node_10_1590768074300"
+    },
+    {
+      "type": "standard",
+      "title": "Glossary",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Definition",
+      "dialog_node": "node_1_1590698765400",
+      "previous_sibling": "node_2_1590697642100"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In keeping with our commitment to giving you only fresh local ingredients, our menu changes daily to accommodate the produce we pick up in the morning. You can find today's menu on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Which menu do you want to see?",
+            "options": [
+              {
+                "label": "Standard",
+                "value": {
+                  "input": {
+                    "text": "Standard Value"
+                  }
+                }
+              },
+              {
+                "label": "Vegetarian",
+                "value": {
+                  "input": {
+                    "text": "Vegetarian Value"
+                  }
+                }
+              },
+              {
+                "label": "Cake Shop",
+                "value": {
+                  "input": {
+                    "text": "Cake Shop Value"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1590779126900"
+      },
+      "conditions": "#menu",
+      "dialog_node": "node_10_1590768074300",
+      "previous_sibling": "node_6_1590743485500"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi My name is First skill! How may I assist you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
